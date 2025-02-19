@@ -22,9 +22,6 @@ while True:
                 print("I will say Pico when you have a correct digit in the wrong place")
                 print("I will say Fermi when you have a correct digit in the correct place")
                 print("I will say Bagels if your guess has no correct digits")
-        #number=random.randrange(100, 999, 1)
-        #number=str(number)
-            #print(number)
             while True:
                 rules=False
                 guess=(input("Enter you guess (3 digit number): "))
@@ -32,13 +29,6 @@ while True:
                     print("It must be a three digit number!")
                 else:
                     break
-                #if (len(guess)) <= 3:
-                    #print("It has to be a three digit number!")
-                #if (len(guess)) >= 3:
-                    #print("That's too big of a number!")
-                #elif (len(guess)) == 3:
-                    #break
-            #guess=str(guess)
             pico=False
             Fermi=False
             if guess == number:
