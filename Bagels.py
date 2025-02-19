@@ -1,5 +1,6 @@
 import random
 #Guess the three digit number
+#Randomchange
 #Print Pico when you have a correct digit in the wrong place
 #Print Fermi when you have a correct digit in the correct place
 #Print Bagels if your guess has no correct digits
