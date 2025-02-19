@@ -1,19 +1,4 @@
 import random
-#Guess the three digit number
-#Randomchange
-#Print Pico when you have a correct digit in the wrong place
-#Print Fermi when you have a correct digit in the correct place
-#Print Bagels if your guess has no correct digits
-#10 tries total
-#number1=random.randrange(0, 9, 1)
-#number2=random.randrange(0, 9, 1)
-#number3=random.randrange(0, 9, 1)
-#number1=str(number1)
-#number2=str(number2)
-#number3=str(number3)
-#number=number1+number2+number3
-#gamewin=False
-#print(number)
 while True:
     guestcount=0
     startgame=input("Want to play a game of Bagels? ")
